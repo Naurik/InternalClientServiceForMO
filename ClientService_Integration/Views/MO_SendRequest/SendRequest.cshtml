@@ -1,0 +1,29 @@
+﻿@model Service.DATA.Model.MO_SendRequest
+@{
+    ViewBag.Title = "Send MO";
+}
+
+<h2>Отправка в МО</h2>
+
+@using (Html.BeginForm("SendRequest", "MO_SendRequest", FormMethod.Post))
+{
+    <div>
+        ИИН
+        <div>
+            @Html.EditorFor(model => model.IIN)
+        </div>
+    </div>
+    <div>
+        <div>
+            <input type="submit" value="Отправка ИИН" />
+        </div>
+    </div>
+}
+@if (ViewBag.Message != null)
+{
+    <script type="text/javascript">
+        window.onload = function () {
+            alert("@ViewBag.Message");
+        };
+    </script>
+}
