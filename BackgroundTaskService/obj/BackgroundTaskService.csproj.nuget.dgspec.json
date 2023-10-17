@@ -36,6 +36,9 @@
             "projectReferences": {
               "C:\\Users\\Назия\\source\\repos\\IntegrationMO_Service\\Service.DATA\\Service.DATA.csproj": {
                 "projectPath": "C:\\Users\\Назия\\source\\repos\\IntegrationMO_Service\\Service.DATA\\Service.DATA.csproj"
+              },
+              "C:\\Users\\Назия\\source\\repos\\IntegrationMO_Service\\Service.Helpers\\Service.Helpers.csproj": {
+                "projectPath": "C:\\Users\\Назия\\source\\repos\\IntegrationMO_Service\\Service.Helpers\\Service.Helpers.csproj"
               }
             }
           }
@@ -52,11 +55,11 @@
           "dependencies": {
             "Hangfire": {
               "target": "Package",
-              "version": "[1.8.3, )"
+              "version": "[1.8.5, )"
             },
             "Hangfire.PostgreSql": {
               "target": "Package",
-              "version": "[1.19.13, )"
+              "version": "[1.20.0, )"
             },
             "Hangfire.PostgreSql.NetCore": {
               "target": "Package",
@@ -64,13 +67,13 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -79,6 +82,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.1, )"
             }
           },
           "imports": [
@@ -133,11 +140,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Назия\\source\\repos\\IntegrationMO_Service\\Service.Helpers\\Service.Helpers.csproj": {
-                "projectPath": "C:\\Users\\Назия\\source\\repos\\IntegrationMO_Service\\Service.Helpers\\Service.Helpers.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -152,19 +155,19 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -173,6 +176,10 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.1, )"
             },
             "log4net": {
               "target": "Package",
@@ -231,7 +238,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Назия\\source\\repos\\IntegrationMO_Service\\Service.DATA\\Service.DATA.csproj": {
+                "projectPath": "C:\\Users\\Назия\\source\\repos\\IntegrationMO_Service\\Service.DATA\\Service.DATA.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -244,15 +255,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "JWT": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "MySql.Data": {
               "target": "Package",
@@ -261,6 +276,10 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.1, )"
             },
             "System.Net.Http": {
               "target": "Package",
@@ -285,6 +304,10 @@
             "System.ServiceModel.Security": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "jose-jwt": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             },
             "log4net": {
               "target": "Package",

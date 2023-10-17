@@ -105,15 +105,25 @@ public partial class Survey
 
     public virtual Step? CurrentStep { get; set; }
 
+    public virtual ICollection<DigitalDocument> DigitalDocuments { get; set; } = new List<DigitalDocument>();
+
     public virtual ICollection<DigitalSign> DigitalSigns { get; set; } = new List<DigitalSign>();
 
     public virtual Education Education { get; set; } = null!;
 
+    public virtual ICollection<GbdflPersonInfo> GbdflPersonInfos { get; set; } = new List<GbdflPersonInfo>();
+
+    public virtual ICollection<Kdptoken> Kdptokens { get; set; } = new List<Kdptoken>();
+
     public virtual MedicalStatus? MedicalStatus { get; set; }
+
+    public virtual ICollection<MoIshasmrEnbekDatum> MoIshasmrEnbekData { get; set; } = new List<MoIshasmrEnbekDatum>();
 
     public virtual Position Position { get; set; } = null!;
 
     public virtual ICollection<Profile> Profiles { get; set; } = new List<Profile>();
+
+    public virtual ICollection<RdbDatum> RdbData { get; set; } = new List<RdbDatum>();
 
     public virtual StepGroup? StepGroup { get; set; }
 

@@ -1,6 +1,3 @@
-
-using Microsoft.EntityFrameworkCore;
-using Service.DATA.DataBase.PostgresSQL;
 using Service.DATA.DataBase.PostgresSQL.RepoInterface;
 using Service.DATA.DataBase.PostgresSQL.Repository;
 using Service.DATA.Models;

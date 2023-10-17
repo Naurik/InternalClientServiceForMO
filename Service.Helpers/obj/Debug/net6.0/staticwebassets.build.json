@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "S3+oiK2Q32ChZv0o+5LKohVReQCdBvs2rgOKZLXSOmc=",
+  "Source": "Service.Helpers",
+  "BasePath": "_content/Service.Helpers",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Назия\\source\\repos\\IntegrationMO_Service\\Service.DATA\\Service.DATA.csproj",
+      "Version": 2,
+      "Source": "Service.DATA",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

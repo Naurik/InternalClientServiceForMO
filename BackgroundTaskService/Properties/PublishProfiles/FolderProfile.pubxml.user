@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Назия\source\repos\IntegrationMO_Service\BackgroundTaskService\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-10-14T06:23:45.3357273Z;True|2023-10-14T12:14:19.5975917+06:00;True|2023-10-14T12:10:40.9810718+06:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
